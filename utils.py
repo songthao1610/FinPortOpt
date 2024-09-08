@@ -45,7 +45,6 @@ def correlation_matrix(df, numeric_cols):
     plt.suptitle('Correlation Matrix of AAPL stock data', fontsize=15)
     plt.show()
 
-correlation_matrix(full_data, num_cols)
 def get_arima_forecasts(df, cat_col, formatted_date, target_col,
                         start_date, end_date, context_len=64):
     """
