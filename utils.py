@@ -189,7 +189,7 @@ def plot_arima_forecasts(predictions, save_dir="", dset_name="APPL", save_plot=F
         color="red"
     )
 
-    plt.title(f"Actual vs Forecasted Payment Values for '{dset_name}' using ARIMA")
+    plt.title(f"Actual vs Forecasted Closing Stock Values for '{dset_name}' using ARIMA")
     plt.xlabel("Date")
     plt.ylabel("Closing Price")
     plt.legend()
