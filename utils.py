@@ -22,6 +22,8 @@ from keras.api.layers import LSTM, Dense
 
 NUM_COLS = ['Open', 'High', 'Low', 'Close', 'Adj Close', 'Volume']
 
+seed = 42
+
 def correlation_matrix(df, numeric_cols):
     """
     Plot correlation heatmaps of the target variable against all other variables for each category.
